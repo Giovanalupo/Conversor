@@ -9,16 +9,16 @@ public class Conversor {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        int opcao = 0;
-        while (opcao != 3) {
+        int opção = 0;
+        while (opção != 3) {
             System.out.println("Escolha uma opção:");
             System.out.println("1 - Converter Celsius para Fahrenheit");
             System.out.println("2 - Converter Fahrenheit para Celsius");
             System.out.println("3 - Sair");
             System.out.print("Opção escolhida: ");
-            opcao = scanner.nextInt();
+            opção = scanner.nextInt();
 
-            switch (opcao) {
+            switch (opção) {
                 case 1:
                     System.out.print("Digite a temperatura em graus Celsius: ");
                     double temperaturaCelsius = scanner.nextDouble();
