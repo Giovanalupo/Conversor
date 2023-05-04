@@ -1,4 +1,4 @@
-//RAI GRANCA E GIOVANA LUPO
+//RAI FRANCA E GIOVANA LUPO
 import java.util.Scanner;
 
 public class Conversor {
